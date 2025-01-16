@@ -1,3 +1,6 @@
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -30,6 +33,7 @@ public class PersonGenerator {
             done = SafeInput.getYNConfirm(in, "Are you done?");
 
         }while(!done);
+
 
     }
 }
